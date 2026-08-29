@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Character</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="character-customizer">
+
+        <div class="preview-column">
+            <p id="pointsDisplay"></p>
+        </div>
+        <h1 class="charactertitle">Your Character</h1>
+
+        <div class="options-column">
+
+            <button class="category" data-target="skinToneOptions">Skin Tone ▾</button>
+            <div class="option-thumbnails" id="skinToneOptions">
+                <img src="lightskin.png" class="option-thumb" data-type="skin" data-value="light">
+                <img src="tanskin.png" class="option-thumb" data-type="skin" data-value="medium">
+                <img src="darkskin.png" class="option-thumb" data-type="skin" data-value="dark">
+            </div>
+
+            <button class="category" data-target="outfitOptions">Outfit ▾</button>
+            <div class="option-thumbnails" id="outfitOptions">
+                <img src="outfit1.png" class="option-thumb" data-type="outfit" data-value="casual">
+                <img src="outfit2.png" class="option-thumb" data-type="outfit" data-value="dressy" data-cost="50">
+                <img src="outfit3.png" class="option-thumb" data-type="outfit" data-value="dressy" data-cost="50">
+
+            </div>
+
+            <button class="category" data-target="hairOptions">Hair ▾</button>
+            <div class="option-thumbnails" id="hairOptions">
+                <img src="hair1.png" class="option-thumb" data-type="hair" data-value="style1">
+                <img src="hair2.png" class="option-thumb" data-type="hair" data-value="style2">
+                <img src="hair3.png" class="option-thumb" data-type="hair" data-value="style3">
+            </div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

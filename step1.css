@@ -1,0 +1,95 @@
+.capsule {
+    background-color: #f2d4a1;
+    
+}
+
+.capsule img{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    display: block;
+}
+
+.futureDreams {
+    background-color: #a9e3f1;
+    max-width: 600px;
+    margin: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border-radius: 15px;
+    border: 2px solid #ff9fef;
+    
+}
+#dreamsInput {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    min-height: 100px;
+    text-align:right;
+}
+#saveDreams {
+    display: block;
+    margin: 0 auto;
+    text-align:center;
+}
+.memories {
+    background-color: #f8fdc2;
+    max-width: 600px;
+    margin: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border-radius: 15px;
+    border: 2px solid #ff00ae;
+    
+}
+#memoriesCollage {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    min-height: 100px;
+    text-align:center;
+}
+
+.fashion {
+    background-color: #fbd39a;
+    max-width: 600px;
+    margin: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border-radius: 15px;
+    border: 2px solid #b352d7;
+    
+}
+#fashionFav {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    min-height: 100px;
+    text-align:center;
+}
+.pastAccomplishments {
+    background-color: #ffc4dc;
+    max-width: 600px;
+    margin: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border-radius: 15px;
+    border: 2px solid #31ce5d;
+    
+}
+#pastInput {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    min-height: 100px;
+    text-align:center;
+}
+#savePast {
+    display: block;
+    margin: 0 auto;
+    text-align:center;
+}
